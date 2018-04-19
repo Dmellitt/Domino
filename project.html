@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Dominoes</title>
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+                <style>
+                    body {
+                        font-family: Monospace;
+                        background-color: #f0f0f0;
+                        margin: 0px;
+                        overflow: hidden;
+                    }
+                    .info {
+                        position: absolute;
+                        padding: 10px;
+                        width: 100%;
+                        color: #fff;
+                        text-align: center;
+                    }
+                
+                    a {
+                        text-decoration: underline;
+                        cursor: pointer;
+                    }
+                </style>
+                </head>
+    <body>
+        <div id="instructions" class="info"> Click and drag to rotate camera or move dominoes. <br/> Left click and drag to pan. 'X' deletes the selected domino. <br/> '1' generates random domino set.
+        </div>
+        <script src="three/three.js"></script>
+
+        <script src="three/physi.js"></script>
+        <script src="three/DragControls.js"></script>
+        <script src="three/OrbitControls.js"></script>
+        <script src="three/stats.min.js"></script>
+        <script src="three/dominoes.js"></script>
+
+    </body>
+</html>
